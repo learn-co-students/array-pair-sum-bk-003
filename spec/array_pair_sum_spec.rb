@@ -19,16 +19,12 @@ describe Array do
 
     it "returns three pairs that add up to five" do
       numbers = [2,3,5,1,4,7,0,6]
-      expect(numbers.pair_sum(5).to eq([[0,5],[1,4],[2,3]])
-    end
-
-    it "returns three pairs that add up to five" do
-      expect(numbers.pair_sum(5).to eq([[0,5],[1,4],[2,3]])
+      expect(numbers.array_pair_sum(5)).to eq([[0,5],[1,4],[2,3]])
     end
 
     it "returns four pairs that add up to eight" do
       numbers = [8,1,0,4,6,10,2,4,-2]
-      expect(numbers.pair_sum(8).to eq([[-2,10],[0,8],[2,6],[4,4]])
+      expect(numbers.array_pair_sum(8)).to eq([[-2,10],[0,8],[2,6],[4,4]])
     end
   end
 end
