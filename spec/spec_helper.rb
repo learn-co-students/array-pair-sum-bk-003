@@ -1,5 +1,5 @@
 require_relative "../config/environment"
-require_relative "../lib/array_pair_sum"
+require_relative "../lib/pair_sum"
 
 RSpec.configure do |config|
   # config here
