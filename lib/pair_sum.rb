@@ -8,8 +8,6 @@ class Array
         if (number + n == num) && index != inde
          @new_array.push(self[index], @compared[inde])
           @array.push(@new_array.sort)
-          # binding.pry
-         # @array.push(self[index], @compare[inde])
         end
       end
     end
